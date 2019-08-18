@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./main.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Sign Up</h1>
+      <form>
+        <div>
+          <p class="name-feedback">PLease fill these two fields</p>
+          <input type="text" placeholder="First Name..." id="first-name" />
+          <input type="text" placeholder="Last Name..." id="last-name" />
+        </div>
+        <div>
+          <p class="email-feedback">PLease fill this field</p>
+          <input type="email" placeholder="Email..." id="email" />
+        </div>
+        <div>
+          <p class="password-feedback">PLease fill this field</p>
+          <input type="text" placeholder="Password..." id="password" />
+        </div>
+        <div>
+          <p class="re-password-feedback">PLease fill this field</p>
+          <input
+            type="password"
+            placeholder="Re-enter the Password..."
+            id="re-password"
+          />
+        </div>
+        <div>
+          <button>Sign Up</button>
+        </div>
+      </form>
+    </div>
+
+    <!--Spinner-->
+    <div class="spinner"></div>
+
+    <div class="complete">
+      <i class="far fa-check-circle"></i>
+      <h3>You signed up succesfully</h3>
+    </div>
+  </body>
+</html>
